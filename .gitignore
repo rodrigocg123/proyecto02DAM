@@ -1,0 +1,47 @@
+# Archivos de compilación
+*.class
+*.jar
+*.war
+*.ear
+
+# Directorios de compilación
+/bin/
+/build/
+/target/
+/out/
+
+# Archivos de logs
+*.log
+
+# Configuración de IDEs
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# VS Code
+.vscode/
+
+# Archivos temporales de Windows
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+
+# Mac (por si compartes repo con alguien que use Mac)
+.DS_Store
+
+# Otros
+*.swp
+*.swo
