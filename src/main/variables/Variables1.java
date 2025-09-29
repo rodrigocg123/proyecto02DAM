@@ -2,7 +2,7 @@ package main.variables;
 
 public class Variables1 {
     public static void main(String[] args) {
-        byte mybyte =-123;
+        byte mybyte = -123;
         short myshort = 190;
         int myint = 18;
 
@@ -23,7 +23,7 @@ public class Variables1 {
         System.out.println(cadena);
         System.out.println("La cadena tiene una longitud de: " + cadena.length());
 
-        //injerencia de datos
+        // injerencia de datos
         var otraVariable = 15;
         var otroDecimal = 1.5;
         var otroChar = 'b';
@@ -32,6 +32,6 @@ public class Variables1 {
         System.out.println("El valor de otraVariable es: " + otraVariable);
         System.out.println("El valor de otroDecimal es: " + otroDecimal);
         System.out.println("El valor de otroChar es: " + otroChar);
-        
+
     }
 }
